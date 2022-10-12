@@ -12,6 +12,7 @@ A boilerplate project to build proof of concept paywalls with lightning service 
     - [Service-level endpoints](#service-level-endpoints)
   - [Enable time based caveats](#enable-time-based-caveats)
 - [Customize protected routes](#customize-protected-routes)
+- [Useful Resources](#useful-resources)
 
 ## Install
 
@@ -139,3 +140,11 @@ to take effect so that the new environment variable is available at runtime.
 All the protected route logic is in `/src/protected.ts`. Fiddle with the different settings,
 add new caveat satisfiers for your own custom restrictions, and use logging to
 understand how everything is parsed and handled.
+
+## Useful Resources
+
+- [LSAT Playground](https://lsat-playground.vercel.app/)
+- [Postman](https://www.postman.com/downloads/)
+- [lsat-js](https://github.com/Tierion/lsat-js)
+- [boltwall](https://github.com/tierion/boltwall)
+- [LSAT Documentation](https://lsat.tech/)
